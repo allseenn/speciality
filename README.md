@@ -2,8 +2,9 @@
 ## Intro
 This repo contains specialists test organized by GeekBrains company.
 Main goal is to code program that generates strings array or ask user to enter strings to fill arrays elements. Major part of program should search inside that array only elements that contains strings equal or less then 3 symbols. Output of the program must be:
+```
 ["12345", "lkkuuhh", "cat", "hi", "Russia"] -> ["cat", "hi"]
- 
+```
 ## Task
 Here is link to task in [Russian](test.jpg), it consists 5 parts:
 1. To create GitHub repo
