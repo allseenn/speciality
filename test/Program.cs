@@ -20,7 +20,7 @@ string[] ParseArray(string[] array, int num)
     int parsedIndex = 0;
     for(int i = 0; i < array.Length; i++)
     {
-        if(array[i].Length <= num && !string.IsNullOrEmpty(array[i]))
+        if(array[i].Length <= num)
         {   
             Array.Resize(ref parsedArray, parsedIndex + 1);
             parsedArray[parsedIndex] = array[i];
